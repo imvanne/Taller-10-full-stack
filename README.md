@@ -17,6 +17,7 @@
 <img src="./public/images/punto-4.png" alt="punto-4">
 
 <h2> Punto 5: Entrada a la bolera usando if/else</h2>
+<img src="./public/images/punto-5.png" alt="punto-5">
 
 <h2> Punto 6: Deteccion de mayoria de edad</h2>
 
