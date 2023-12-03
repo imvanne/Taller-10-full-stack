@@ -1,6 +1,6 @@
 <?php
 echo "BIENVENIDOS A  LA BOLERA". "\n";
-$afiliacion = readline ("ingrese el tipo de afiliacion (A o B):" . "\n");
+$afiliacion = readline ("ingrese el tipo de afiliacion (A o B):");
 $personas = readline ("ingrese el numero de personas:");
 $valor = 25000;
 

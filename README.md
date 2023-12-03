@@ -20,8 +20,10 @@
 <img src="./public/images/punto-5.png" alt="punto-5">
 
 <h2> Punto 6: Deteccion de mayoria de edad</h2>
+<img src="./public/images/punto-6.png" alt="punto-6">
 
 <h2> Punto 7: Seleccion de operacion aritmetica</h2>
+<img src="./public/images/punto-7.png" alt="punto-7">
 
 <h2> Punto 8: Entrada de bolera usando Switch</h2>
 
