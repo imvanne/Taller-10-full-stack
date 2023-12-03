@@ -1,21 +1,14 @@
 <?php
-const TICKET_PRICE = 25000;
-$membershipType ="";
-$personNumber= 0;
+echo "BIENVENIDOS A  LA BOLERA". "\n";
+$afiliacion = readline ("ingrese el tipo de afiliacion (A o B):" . "\n");
+$personas = readline ("ingrese el numero de personas:");
+$valor = 25000;
 
-//proceso
-echo "digite el numero de personas que van a entrar a la bolera: \n";
-$personNumber = readline ();
+$costoTotal = $personas * $valor;
 
-echo "digite el tipo de membresia: \n";
-$membershipType = readline ();
-
-$totalPay = $personNumber * TICKET_PRICE;
-
-if ($membershipType  ==  "A"|| "a" || $membershipType == "B" ||"b") {
-  $totalPay = $totalPay * 0.7;
+if ($afiliacion == "A" || $afiliacion == "B"){
+  echo "el valor total con descuento es:" . ($costoTotal * 0.7);
+} else {
+  echo "el valor total es :" . $costoTotal;
 }
-//RESULTADO FINAL
-
-echo "El Total a pagar es $" . number_format ($totalPay);
 ?>
